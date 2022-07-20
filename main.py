@@ -15,12 +15,12 @@ y=18
 for number in range(10000000):
     x=x+1
 
-    num="+918125617297"
+    num="Enter the number with country code "
 
     if x==60:
         x=1
         y=y+1
-    pywhatkit.sendwhatmsg(num,'💓'*x,y,x)
+    pywhatkit.sendwhatmsg(num,'Happy coading'*x,y,x)
 
 
 
